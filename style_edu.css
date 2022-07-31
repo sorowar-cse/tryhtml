@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.front {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 0%;
+}
+.img1 img {
+    height: 250px;
+    width: 100%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    margin-bottom: auto;
+}
+.info {
+    height: 250px;
+    width: 100%;
+    padding-top: 7%;
+    padding-left: 7%;
+    padding-bottom: 0%;
+    margin-bottom: auto;
+    background-color: navy;
+}
+#f1 {
+    color: oldlace;
+}
+#f2 {
+    color: blanchedalmond;
+    font-size: 18px;
+}
+#i1 img{
+    height: 25px;
+    width: 25px;
+    align-content: center;
+}
+.social {
+    display: flex;
+    justify-content: space-around;
+}
+.edu {
+    height: auto;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-bottom: 0%;
+    margin-bottom: auto;
+    background-color: rgb(140, 140, 194);
+}
+#university, #college, #school {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: flex-end;
+
+}
+.logo img {
+    height: 25px;
+    width: 25px;
+}

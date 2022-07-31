@@ -1,0 +1,8 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#about {
+    background-color: azure;
+    background-image: url("fb.webp");
+}
